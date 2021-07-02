@@ -4,6 +4,14 @@
 
 int main(){
   int i, sum=0, value;
+  
+  //　名前を聞くパート
+  char str[8];
+  printf("What is your name?\n");
+  scanf("%s", str);
+  printf("Hello, %s!\n", str);
+  
+  //　サイコロを振るパート
   printf("Initial revision\n");
   printf("Rolling the dice...\n");
 
